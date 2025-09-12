@@ -1,0 +1,158 @@
+Sad:
+
+“I just watched a heartbreaking movie, and now I feel down.”
+
+“That film was so sad—I can’t stop thinking about it.”
+
+“Wow, that movie really hit me in the feels. Ugh, I’m sad now.”
+
+“Just saw a tearjerker… why am I like this?”
+
+
+
+“The movie left me in tears. I feel a heavy sadness lingering.”
+
+“After watching that story, I feel a pang of sorrow I can’t shake.”
+
+
+
+“That movie was so emotional—it made me reflect on my own life and now I feel melancholy.”
+
+“Seeing that story unfold left me feeling a deep sadness I wasn’t expecting.”
+
+Silly sad:
+
+“I watched a sad movie and now I’m crying into my popcorn. Classic me.”
+
+“That film was sad, and now I’m sadder… send help.”
+
+"That film was so sad i could drink my tears!"
+
+Angry:
+
+"Erghhh! I'm so ANGRY about this!"
+
+Hungry:
+
+"Mmm.. I want something to eat!"
+
+"Yummy! Food!"
+
+Science:
+
+“Water boils at 100°C at sea level.”
+“Earth revolves around the Sun once every 365.25 days.”
+“The human body has 206 bones.”
+“Light travels at approximately 299,792 kilometers per second.”
+“Gravity on Earth is 9.8 m/s².”
+“Mount Everest is 8,848 meters tall.”
+“Jupiter is the largest planet in the Solar System.”
+
+History:
+
+“The Great Wall of China is over 21,000 km long.”
+“World War II ended in 1945.”
+“Leonardo da Vinci painted the Mona Lisa in 1503.”
+“The Roman Empire fell in 476 AD.”
+“The American Declaration of Independence was signed in 1776.”
+“Gutenberg invented the printing press around 1440.”
+
+Geography:
+
+“The Nile is the longest river in Africa.”
+“The Sahara is the largest hot desert in the world.”
+“Tokyo is the capital of Japan.”
+“Mount Kilimanjaro is in Tanzania.”
+“Lake Baikal is the deepest freshwater lake on Earth.”
+
+Math:
+
+“Pi (π) is approximately 3.14159.”
+“The square root of 64 is 8.”
+“The derivative of x² is 2x.”
+“The integral of 1/x dx is ln|x| + C.”
+“The area of a circle is π × r².”
+“The perimeter of a rectangle is 2 × (length + width).”
+“The sum of angles in a triangle is 180 degrees.”
+“The Pythagorean theorem states a² + b² = c².”
+“The factorial of 5 (5!) is 120.”
+“The quadratic formula is x = [-b ± √(b² - 4ac)] / 2a.”
+“The Fibonacci sequence starts with 0, 1, 1, 2, 3, 5, 8…”
+“The probability of a fair coin landing heads is 0.5.”
+“The area of a triangle is 0.5 × base × height.”
+“The circumference of a circle is 2 × π × r.”
+“A right angle measures 90 degrees.”
+
+Geography:
+
+“Mount Everest is the tallest mountain in the world at 8,848 meters.”
+“The Nile is the longest river in Africa, approximately 6,650 km long.”
+“Tokyo is the capital city of Japan.”
+“The Sahara is the largest hot desert on Earth.”
+“The Amazon Rainforest spans 5.5 million square kilometers.”
+“Lake Baikal in Russia is the deepest freshwater lake, over 1,600 meters deep.”
+“The Great Barrier Reef is located off the coast of Queensland, Australia.”
+“Paris is the capital city of France.”
+“The Mississippi River is the second-longest river in the United States.”
+“The Andes is the longest continental mountain range in the world.”
+“Mount Kilimanjaro is located in Tanzania.”
+“The Dead Sea is the lowest point on Earth’s surface, at approximately -430 meters.”
+“Greenland is the largest island in the world.”
+“The Danube River flows through 10 countries in Europe.”
+“The Kremlin is a historic fortified complex in Moscow, Russia.”
+
+History:
+
+“World War II ended in 1945.”
+“The Declaration of Independence of the United States was signed in 1776.”
+“Leonardo da Vinci painted the Mona Lisa in 1503.”
+“The Roman Empire fell in 476 AD.”
+“The French Revolution began in 1789.”
+“Christopher Columbus arrived in the Americas in 1492.”
+“The Great Fire of London occurred in 1666.”
+“Nelson Mandela became South Africa’s first Black president in 1994.”
+“The Berlin Wall fell in 1989.”
+“The Industrial Revolution began in the late 18th century in Britain.”
+“Gutenberg invented the printing press around 1440.”
+“The American Civil War lasted from 1861 to 1865.”
+“The Wright brothers made the first powered flight in 1903.”
+“The Titanic sank in 1912.”
+“The first moon landing occurred in 1969.”
+
+Coding:
+
+“Declare variables and constants; replace names and values with your own.”
+“Use basic data types: integers, floats, strings, booleans; replace with your own values.”
+“Perform arithmetic and logical operations; replace operands and operators with your own.”
+“Use loops (for, while, do…while) for iteration; replace conditions and body with your own logic.”
+“Apply conditional statements (if, else if, else, switch) for decision-making; replace conditions and actions with your own.”
+“Define functions, methods, or procedures; replace name, parameters, and body with your logic.”
+“Work with arrays, lists, or collections; replace with your own elements and operations.”
+“Implement dictionaries, maps, or hash tables; replace keys and values with your own.”
+“Use stacks, queues, and priority queues for LIFO/FIFO operations; replace operations with your own logic.”
+“Manipulate strings and text using concatenation, slicing, and formatting; replace with your own content.”
+“Apply object-oriented programming: classes, objects, inheritance, polymorphism, and encapsulation; replace names and methods with your own.”
+“Handle exceptions and errors; replace exception types and recovery logic with your own.”
+“Debug code using print statements, breakpoints, or logging; replace variables and messages with your own.”
+“Write unit tests and integration tests; replace test cases, inputs, and expected outputs with your own.”
+“Use recursion for problems that call themselves; replace base case and recursive step with your own logic.”
+“Implement algorithms: sorting (bubble, merge, quick), searching (linear, binary), graph traversal (BFS, DFS); replace data and steps with your own.”
+“Use dynamic programming and memoization to optimize recursive solutions; replace subproblems and formulas with your own.”
+“Work with data structures: linked lists, trees (binary, AVL, B-trees), graphs (directed, undirected); replace nodes, edges, and traversal logic with your own.”
+“Perform file input/output operations; replace file names and content with your own.”
+“Query and manipulate databases (SQL/NoSQL); replace table names, columns, and conditions with your own.”
+“Work with APIs and HTTP requests; replace endpoints, parameters, and payloads with your own.”
+“Use concurrency, multithreading, or asynchronous programming; replace threads, tasks, and resources with your own logic.”
+“Use regular expressions for pattern matching in strings; replace pattern and input with your own.”
+“Apply version control (Git) for code management; replace commit messages, branches, and repository names with your own.”
+“Use standard libraries and frameworks; replace functions, modules, and classes with your own usage.”
+“Write clean, modular, and maintainable code; replace function names, class names, and comments with your own.”
+“Document code with comments and documentation strings; replace explanations with your own descriptions.”
+“Optimize code for time and space complexity; replace algorithms and data structures with your own improvements.”
+“Implement security best practices: input validation, sanitization, encryption; replace values and methods with your own logic.”
+“Use design patterns: singleton, observer, factory, strategy; replace class names and logic with your own.”
+“Handle memory management and resources; replace allocation, deallocation, and references with your own logic.”
+“Perform unit conversions, mathematical calculations, and numerical methods; replace formulas and inputs with your own.”
+“Use testing frameworks and debugging tools; replace test cases and breakpoints with your own logic.”
+“Apply software development lifecycle: planning, implementation, testing, deployment; replace steps with your own workflow.”
+“Follow best coding practices: naming conventions, code readability, modularity, commenting; replace examples with your own style.”
