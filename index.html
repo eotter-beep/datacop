@@ -1,30 +1,104 @@
 <!DOCTYPE html>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+<html lang="en">
 
-  section {
-    margin: auto;
-    font-family: 'Epunda Sans', sans-serif;
-  }
-  
-  .quote {
-    font-style: italic;
-  }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DataCop: CORS-Free Data Access</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
 
-  header {
-    font-family: 'Montserrat', sans-serif;
-    background-color: grey;
-  }
-</style>
-<header>
-  <h1>Datacop</h1>
-</header>
-<section>
-  <quote>"I believe AI datasets shouldnt have CORS, and they should have a CDN"</quote>
-</section>
-<section>
-  <h1>Why is this?</h1>
-  <p>CORS blocks many of the resources we love from being accessed</p>
-  <p>CDNs are resource-efficient</p>
-</section>
+    pre {
+      background-color: #f0f0f0;
+      padding: 10px;
+      overflow-x: auto;
+      /* Handle long lines */
+    }
+
+    .warning {
+      color: red;
+      font-weight: bold;
+    }
+
+    .data-source {
+      font-size: smaller;
+      color: grey;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>DataCop: Easy, CORS-Free Data</h1>
+
+  <p>DataCop provides a simple and reliable way to access open data without the complexities of CORS. Our CDN makes it
+    easy to integrate curated datasets into your projects.</p>
+
+  <h2>Access the Data</h2>
+
+  <p>You can access the data directly at: <a href="https://datacop.vercel.app/data.txt">datacop.vercel.app/data.txt</a>
+  </p>
+
+  <h2>Example Usage (JavaScript)</h2>
+
+  <pre><code>
+    fetch('https://datacop.vercel.app/data.txt')
+      .then(response => response.text()) // Or response.json() if it's JSON
+      .then(data => {
+        console.log(data);
+        // Use the data here
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+  </code></pre>
+
+  <h2>Data Preview (First few lines):</h2>
+
+  <pre id="data-preview">Loading data...</pre>
+
+  <h2>Important Considerations</h2>
+
+  <p class="warning">
+    <strong>Data Provenance:</strong> It is <em>critical</em> to understand the source and quality of the data accessed
+    via DataCop. The maintainers of this site are not responsible for the accuracy, completeness, or suitability of the
+    data. Always verify the data's source and perform your own validation. If the data does not include provenance
+    information, exercise extreme caution.
+  </p>
+
+  <p class="warning">
+    <strong>Security:</strong> If you are handling sensitive data, ensure that you implement appropriate security
+    measures to protect your users and your application. This includes validating data, sanitizing inputs, and using
+    HTTPS. Be extremely cautious about including potentially malicious content (e.g., JavaScript) from `data.txt`
+    directly into your website without proper sanitization.
+  </p>
+
+  <h2>About DataCop</h2>
+
+  <p>DataCop aims to simplify access to open data. We handle the complexities of CORS and provide a stable endpoint for
+    accessing datasets. See the <a href="/documentation">documentation</a> for details on the data format and available
+    datasets.</p>
+
+  <p class="data-source">This website is a demonstration and is not affiliated with any official "DataCop" organization.
+  </p>
+
+  <script>
+    // Fetch and display a preview of the data
+    fetch('https://datacop.vercel.app/data.txt')
+      .then(response => response.text())
+      .then(data => {
+        const previewElement = document.getElementById('data-preview');
+        previewElement.textContent = data.substring(0, 500) + "..."; // Display first 500 chars
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+        document.getElementById('data-preview').textContent = 'Error loading data. Check console.';
+      });
+  </script>
+
+</body>
+
+</html>
