@@ -704,6 +704,24 @@ One way to approach creative challenges is by following the five-step process of
 
 Being creative isn't about being the first (or only) person to think of an idea. More often, creativity is about connecting ideas."
 
+Animals:
+
+Cats purring helps heal their bones
+
+Claws are common in cats, dogs, and wolves!
+
+Questions:
+
+Why did you do that?
+
+Excuse me, can you elaborate again?
+
+Confused:
+
+What was that?
+
+What is that?
+
 Controlled results:
 Training loss = "1.000"
 Top K = "Heap"
